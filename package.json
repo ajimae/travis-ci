@@ -1,0 +1,17 @@
+{
+  "name": "travispackage",
+  "version": "1.0.0",
+  "description": "Travis Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "Meeky",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0"
+  }
+}
