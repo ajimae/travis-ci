@@ -9,4 +9,9 @@ const server = app.listen(3000, function() {
     console.log('Listening on port 3000');
 })
 
+// function stop() {
+//     server.close();
+// }
+
 module.exports = server;
+// module.exports.stop = stop;
